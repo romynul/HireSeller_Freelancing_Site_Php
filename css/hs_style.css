@@ -1,0 +1,122 @@
+
+body {
+  padding-top: 54px;
+  font-family: "Gotham SSm",Helvetica,Arial,sans-serif;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+
+
+}
+  a.nav-link.rs_menu {
+    padding: 1.5rem 1rem;
+}
+
+
+
+.rs_slider{
+	background-image: url("../resources/slider.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+	margin-top: 32px;
+	padding: 11% 10%;
+	
+}
+
+.rs_call {
+    padding: 1.5% 0%;
+}
+.rs_foot{
+  text-align: left;
+}
+@media (max-width: 768px) {
+.rs_slider {
+    margin-top: 22px;
+}
+
+.rs_foot {
+    text-align: center;
+}
+
+}
+
+
+
+.rs_hr{
+	width:10%;
+	border-width: 3px;
+	margin-bottom: 2%;
+}
+
+
+.rs_browse_job {
+    border-radius: 2px;
+    color: #000;
+}
+
+.rs_browse_job h3:hover {
+    color: green;
+}
+
+.rs_user {
+    border-radius: 2px;
+    color: #000;
+    border: 1px solid #fff;
+}
+
+.rs_user:hover {
+    color: green;
+    border: 2px solid #fff;
+}
+
+.rs_button {
+    display: block;
+    margin: auto;
+}
+
+.dp_photo{
+  border-radius: 50%;
+  display: block;
+  margin:auto;
+}
+.rs_profile {
+    padding: 10px;
+}
+
+.container-fluid.main_content {
+    background-color: #f2f2f2;
+}
+
+.job_view {
+    background-color: #fff;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+div#job {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+div#alljob {
+    box-shadow: 0 1px 6px rgba(57,73,76,0.35);
+}
+
+
+a#jobs {
+    color: #28a745;
+}
+
+a#jobs:hover {
+    color: green;
+}
+
+.mess {
+    height: 59px;
+    background-color: green;
+    color: #fff;
+    font-size: 30px;
+    border: 2px solid white;
+    padding: 1%;
+}
